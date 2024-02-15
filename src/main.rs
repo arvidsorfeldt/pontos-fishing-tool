@@ -20,7 +20,7 @@ fn main() -> eframe::Result<()> {
     eframe::run_native(
         "PONTOS Fish Lightning",
         native_options,
-        Box::new(|cc| Box::new(pontos_fishing_tool::TemplateApp::new(cc))),
+        Box::new(|cc| Box::new(pontos_fishing_tool::FishTool::new(cc))),
     )
 }
 
@@ -37,7 +37,7 @@ fn main() {
             .start(
                 "the_canvas_id", // hardcode it
                 web_options,
-                Box::new(|cc| Box::new(pontos_fishing_tool::TemplateApp::new(cc))),
+                Box::new(|cc| Box::new(pontos_fishing_tool::FishTool::new(cc))),
             )
             .await
             .expect("failed to start eframe");
