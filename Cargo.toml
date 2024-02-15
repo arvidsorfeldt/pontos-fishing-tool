@@ -1,7 +1,7 @@
 [package]
-name = "eframe_template"
+name = "pontos_fishing_tool"
 version = "0.1.0"
-authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
+authors = ["Arvid Sörfeldt <arvid.sorfeldt@gmail.com>"]
 edition = "2021"
 rust-version = "1.72"
 
